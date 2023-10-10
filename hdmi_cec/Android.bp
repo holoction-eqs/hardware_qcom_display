@@ -24,6 +24,7 @@ cc_library_shared {
         "-Wno-format",
         "-Wno-sign-conversion",
     ],
+    clang: true,
     srcs: [
         "qhdmi_cec.cpp",
         "QHDMIClient.cpp",

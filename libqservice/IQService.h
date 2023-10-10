@@ -27,8 +27,8 @@
 #include <utils/RefBase.h>
 #include <binder/IInterface.h>
 #include <binder/IBinder.h>
-#include "IQClient.h"
-#include "IQHDMIClient.h"
+#include <IQClient.h>
+#include <IQHDMIClient.h>
 
 
 namespace qService {

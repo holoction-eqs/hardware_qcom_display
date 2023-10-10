@@ -33,7 +33,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <display_config.h>
-#include "../libqservice/QServiceUtils.h"
+#include <QServiceUtils.h>
 #include <qd_utils.h>
 
 using namespace android;

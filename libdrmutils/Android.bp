@@ -23,6 +23,7 @@ cc_library_shared {
         "-Wno-format",
         "-fno-operator-names",
     ],
+    clang: true,
 
     srcs: [
         "drm_master.cpp",

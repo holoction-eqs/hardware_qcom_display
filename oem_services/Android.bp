@@ -17,6 +17,7 @@ cc_library_shared {
         "-Wno-unused-parameter",
         "-DLOG_TAG=\"SDM\"",
     ],
+    clang: true,
     header_libs: ["display_headers"],
 
     shared_libs: [
@@ -52,6 +53,7 @@ cc_binary {
         "-Wno-unused-parameter",
         "-DLOG_TAG=\"SDM\"",
     ],
+    clang: true,
 
     header_libs: ["display_headers"],
 
