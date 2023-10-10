@@ -32,7 +32,7 @@
 #include <binder/Parcel.h>
 #include <binder/IServiceManager.h>
 #include <utils/RefBase.h>
-#include <IQService.h>
+#include "IQService.h"
 
 // ----------------------------------------------------------------------------
 // Helpers
